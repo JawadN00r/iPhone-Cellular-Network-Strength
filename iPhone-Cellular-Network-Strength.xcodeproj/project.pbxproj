@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		610DABC91D8DAF4900DF19E0 /* CellularNetworkStrength.m in Sources */ = {isa = PBXBuildFile; fileRef = 610DABC81D8DAF4900DF19E0 /* CellularNetworkStrength.m */; };
+		61BF68A01D8DAC5700CA031C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF689F1D8DAC5700CA031C /* main.m */; };
+		61BF68A31D8DAC5700CA031C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF68A21D8DAC5700CA031C /* AppDelegate.m */; };
+		61BF68A61D8DAC5700CA031C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF68A51D8DAC5700CA031C /* ViewController.m */; };
+		61BF68A91D8DAC5700CA031C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BF68A71D8DAC5700CA031C /* Main.storyboard */; };
+		61BF68AB1D8DAC5700CA031C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61BF68AA1D8DAC5700CA031C /* Assets.xcassets */; };
+		61BF68AE1D8DAC5700CA031C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61BF68AC1D8DAC5700CA031C /* LaunchScreen.storyboard */; };
+		61BF68B91D8DAC5700CA031C /* iPhone_Cellular_Network_StrengthTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF68B81D8DAC5700CA031C /* iPhone_Cellular_Network_StrengthTests.m */; };
+		61BF68C41D8DAC5700CA031C /* iPhone_Cellular_Network_StrengthUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF68C31D8DAC5700CA031C /* iPhone_Cellular_Network_StrengthUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61BF68B51D8DAC5700CA031C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61BF68931D8DAC5700CA031C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61BF689A1D8DAC5700CA031C;
+			remoteInfo = "iPhone-Cellular-Network-Strength";
+		};
+		61BF68C01D8DAC5700CA031C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61BF68931D8DAC5700CA031C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61BF689A1D8DAC5700CA031C;
+			remoteInfo = "iPhone-Cellular-Network-Strength";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		610DABC71D8DAF4900DF19E0 /* CellularNetworkStrength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellularNetworkStrength.h; sourceTree = "<group>"; };
+		610DABC81D8DAF4900DF19E0 /* CellularNetworkStrength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellularNetworkStrength.m; sourceTree = "<group>"; };
+		61BF689B1D8DAC5700CA031C /* iPhone-Cellular-Network-Strength.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhone-Cellular-Network-Strength.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61BF689F1D8DAC5700CA031C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61BF68A11D8DAC5700CA031C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61BF68A21D8DAC5700CA031C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61BF68A41D8DAC5700CA031C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61BF68A51D8DAC5700CA031C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61BF68A81D8DAC5700CA031C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61BF68AA1D8DAC5700CA031C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61BF68AD1D8DAC5700CA031C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61BF68AF1D8DAC5700CA031C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61BF68B41D8DAC5700CA031C /* iPhone-Cellular-Network-StrengthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPhone-Cellular-Network-StrengthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61BF68B81D8DAC5700CA031C /* iPhone_Cellular_Network_StrengthTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhone_Cellular_Network_StrengthTests.m; sourceTree = "<group>"; };
+		61BF68BA1D8DAC5700CA031C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61BF68BF1D8DAC5700CA031C /* iPhone-Cellular-Network-StrengthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iPhone-Cellular-Network-StrengthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61BF68C31D8DAC5700CA031C /* iPhone_Cellular_Network_StrengthUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhone_Cellular_Network_StrengthUITests.m; sourceTree = "<group>"; };
+		61BF68C51D8DAC5700CA031C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61BF68981D8DAC5700CA031C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BF68B11D8DAC5700CA031C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BF68BC1D8DAC5700CA031C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61BF68921D8DAC5700CA031C = {
+			isa = PBXGroup;
+			children = (
+				61BF689D1D8DAC5700CA031C /* iPhone-Cellular-Network-Strength */,
+				61BF68B71D8DAC5700CA031C /* iPhone-Cellular-Network-StrengthTests */,
+				61BF68C21D8DAC5700CA031C /* iPhone-Cellular-Network-StrengthUITests */,
+				61BF689C1D8DAC5700CA031C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61BF689C1D8DAC5700CA031C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61BF689B1D8DAC5700CA031C /* iPhone-Cellular-Network-Strength.app */,
+				61BF68B41D8DAC5700CA031C /* iPhone-Cellular-Network-StrengthTests.xctest */,
+				61BF68BF1D8DAC5700CA031C /* iPhone-Cellular-Network-StrengthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61BF689D1D8DAC5700CA031C /* iPhone-Cellular-Network-Strength */ = {
+			isa = PBXGroup;
+			children = (
+				61BF68A11D8DAC5700CA031C /* AppDelegate.h */,
+				61BF68A21D8DAC5700CA031C /* AppDelegate.m */,
+				61BF68A41D8DAC5700CA031C /* ViewController.h */,
+				61BF68A51D8DAC5700CA031C /* ViewController.m */,
+				61BF68A71D8DAC5700CA031C /* Main.storyboard */,
+				61BF68AA1D8DAC5700CA031C /* Assets.xcassets */,
+				610DABC71D8DAF4900DF19E0 /* CellularNetworkStrength.h */,
+				610DABC81D8DAF4900DF19E0 /* CellularNetworkStrength.m */,
+				61BF68AC1D8DAC5700CA031C /* LaunchScreen.storyboard */,
+				61BF68AF1D8DAC5700CA031C /* Info.plist */,
+				61BF689E1D8DAC5700CA031C /* Supporting Files */,
+			);
+			path = "iPhone-Cellular-Network-Strength";
+			sourceTree = "<group>";
+		};
+		61BF689E1D8DAC5700CA031C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61BF689F1D8DAC5700CA031C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61BF68B71D8DAC5700CA031C /* iPhone-Cellular-Network-StrengthTests */ = {
+			isa = PBXGroup;
+			children = (
+				61BF68B81D8DAC5700CA031C /* iPhone_Cellular_Network_StrengthTests.m */,
+				61BF68BA1D8DAC5700CA031C /* Info.plist */,
+			);
+			path = "iPhone-Cellular-Network-StrengthTests";
+			sourceTree = "<group>";
+		};
+		61BF68C21D8DAC5700CA031C /* iPhone-Cellular-Network-StrengthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61BF68C31D8DAC5700CA031C /* iPhone_Cellular_Network_StrengthUITests.m */,
+				61BF68C51D8DAC5700CA031C /* Info.plist */,
+			);
+			path = "iPhone-Cellular-Network-StrengthUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61BF689A1D8DAC5700CA031C /* iPhone-Cellular-Network-Strength */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61BF68C81D8DAC5700CA031C /* Build configuration list for PBXNativeTarget "iPhone-Cellular-Network-Strength" */;
+			buildPhases = (
+				61BF68971D8DAC5700CA031C /* Sources */,
+				61BF68981D8DAC5700CA031C /* Frameworks */,
+				61BF68991D8DAC5700CA031C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iPhone-Cellular-Network-Strength";
+			productName = "iPhone-Cellular-Network-Strength";
+			productReference = 61BF689B1D8DAC5700CA031C /* iPhone-Cellular-Network-Strength.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61BF68B31D8DAC5700CA031C /* iPhone-Cellular-Network-StrengthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61BF68CB1D8DAC5700CA031C /* Build configuration list for PBXNativeTarget "iPhone-Cellular-Network-StrengthTests" */;
+			buildPhases = (
+				61BF68B01D8DAC5700CA031C /* Sources */,
+				61BF68B11D8DAC5700CA031C /* Frameworks */,
+				61BF68B21D8DAC5700CA031C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61BF68B61D8DAC5700CA031C /* PBXTargetDependency */,
+			);
+			name = "iPhone-Cellular-Network-StrengthTests";
+			productName = "iPhone-Cellular-Network-StrengthTests";
+			productReference = 61BF68B41D8DAC5700CA031C /* iPhone-Cellular-Network-StrengthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61BF68BE1D8DAC5700CA031C /* iPhone-Cellular-Network-StrengthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61BF68CE1D8DAC5700CA031C /* Build configuration list for PBXNativeTarget "iPhone-Cellular-Network-StrengthUITests" */;
+			buildPhases = (
+				61BF68BB1D8DAC5700CA031C /* Sources */,
+				61BF68BC1D8DAC5700CA031C /* Frameworks */,
+				61BF68BD1D8DAC5700CA031C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61BF68C11D8DAC5700CA031C /* PBXTargetDependency */,
+			);
+			name = "iPhone-Cellular-Network-StrengthUITests";
+			productName = "iPhone-Cellular-Network-StrengthUITests";
+			productReference = 61BF68BF1D8DAC5700CA031C /* iPhone-Cellular-Network-StrengthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61BF68931D8DAC5700CA031C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Md. Jawad Noor Asif";
+				TargetAttributes = {
+					61BF689A1D8DAC5700CA031C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					61BF68B31D8DAC5700CA031C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 61BF689A1D8DAC5700CA031C;
+					};
+					61BF68BE1D8DAC5700CA031C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 61BF689A1D8DAC5700CA031C;
+					};
+				};
+			};
+			buildConfigurationList = 61BF68961D8DAC5700CA031C /* Build configuration list for PBXProject "iPhone-Cellular-Network-Strength" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61BF68921D8DAC5700CA031C;
+			productRefGroup = 61BF689C1D8DAC5700CA031C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61BF689A1D8DAC5700CA031C /* iPhone-Cellular-Network-Strength */,
+				61BF68B31D8DAC5700CA031C /* iPhone-Cellular-Network-StrengthTests */,
+				61BF68BE1D8DAC5700CA031C /* iPhone-Cellular-Network-StrengthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61BF68991D8DAC5700CA031C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BF68AE1D8DAC5700CA031C /* LaunchScreen.storyboard in Resources */,
+				61BF68AB1D8DAC5700CA031C /* Assets.xcassets in Resources */,
+				61BF68A91D8DAC5700CA031C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BF68B21D8DAC5700CA031C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BF68BD1D8DAC5700CA031C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61BF68971D8DAC5700CA031C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BF68A61D8DAC5700CA031C /* ViewController.m in Sources */,
+				610DABC91D8DAF4900DF19E0 /* CellularNetworkStrength.m in Sources */,
+				61BF68A31D8DAC5700CA031C /* AppDelegate.m in Sources */,
+				61BF68A01D8DAC5700CA031C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BF68B01D8DAC5700CA031C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BF68B91D8DAC5700CA031C /* iPhone_Cellular_Network_StrengthTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61BF68BB1D8DAC5700CA031C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61BF68C41D8DAC5700CA031C /* iPhone_Cellular_Network_StrengthUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61BF68B61D8DAC5700CA031C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61BF689A1D8DAC5700CA031C /* iPhone-Cellular-Network-Strength */;
+			targetProxy = 61BF68B51D8DAC5700CA031C /* PBXContainerItemProxy */;
+		};
+		61BF68C11D8DAC5700CA031C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61BF689A1D8DAC5700CA031C /* iPhone-Cellular-Network-Strength */;
+			targetProxy = 61BF68C01D8DAC5700CA031C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61BF68A71D8DAC5700CA031C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61BF68A81D8DAC5700CA031C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61BF68AC1D8DAC5700CA031C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61BF68AD1D8DAC5700CA031C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61BF68C61D8DAC5700CA031C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61BF68C71D8DAC5700CA031C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61BF68C91D8DAC5700CA031C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iPhone-Cellular-Network-Strength/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jawadasif.iPhone-Cellular-Network-Strength";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61BF68CA1D8DAC5700CA031C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iPhone-Cellular-Network-Strength/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jawadasif.iPhone-Cellular-Network-Strength";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61BF68CC1D8DAC5700CA031C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iPhone-Cellular-Network-StrengthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jawadasif.iPhone-Cellular-Network-StrengthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhone-Cellular-Network-Strength.app/iPhone-Cellular-Network-Strength";
+			};
+			name = Debug;
+		};
+		61BF68CD1D8DAC5700CA031C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iPhone-Cellular-Network-StrengthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jawadasif.iPhone-Cellular-Network-StrengthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPhone-Cellular-Network-Strength.app/iPhone-Cellular-Network-Strength";
+			};
+			name = Release;
+		};
+		61BF68CF1D8DAC5700CA031C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iPhone-Cellular-Network-StrengthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jawadasif.iPhone-Cellular-Network-StrengthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iPhone-Cellular-Network-Strength";
+			};
+			name = Debug;
+		};
+		61BF68D01D8DAC5700CA031C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iPhone-Cellular-Network-StrengthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jawadasif.iPhone-Cellular-Network-StrengthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iPhone-Cellular-Network-Strength";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61BF68961D8DAC5700CA031C /* Build configuration list for PBXProject "iPhone-Cellular-Network-Strength" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61BF68C61D8DAC5700CA031C /* Debug */,
+				61BF68C71D8DAC5700CA031C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61BF68C81D8DAC5700CA031C /* Build configuration list for PBXNativeTarget "iPhone-Cellular-Network-Strength" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61BF68C91D8DAC5700CA031C /* Debug */,
+				61BF68CA1D8DAC5700CA031C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61BF68CB1D8DAC5700CA031C /* Build configuration list for PBXNativeTarget "iPhone-Cellular-Network-StrengthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61BF68CC1D8DAC5700CA031C /* Debug */,
+				61BF68CD1D8DAC5700CA031C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61BF68CE1D8DAC5700CA031C /* Build configuration list for PBXNativeTarget "iPhone-Cellular-Network-StrengthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61BF68CF1D8DAC5700CA031C /* Debug */,
+				61BF68D01D8DAC5700CA031C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61BF68931D8DAC5700CA031C /* Project object */;
+}
