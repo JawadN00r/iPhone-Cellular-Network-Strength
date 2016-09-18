@@ -10,6 +10,8 @@
 #import "CellularNetworkStrength.h"
 
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet UILabel *strengthLevelLabel;
+@property (strong, nonatomic) IBOutlet UILabel *rawStrengthLabel;
 
 @end
 
@@ -18,10 +20,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    int strengthLevel = [[CellularNetworkStrength sharedInstance]strengthLevel];
-    NSLog(@"strength: %ld",(long)strengthLevel);
-    double strength = [[CellularNetworkStrength sharedInstance]rawStrength];
-    NSLog(@"strengthInDB: %f DB",strength);
+    
     
 }
 
@@ -29,5 +28,14 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+#pragma mark - IBActions
+- (IBAction)onGetStrengthButton:(id)sender {
+    int strengthLevel = [[CellularNetworkStrength sharedInstance]strengthLevel];
+    self.strengthLevelLabel.text = [NSString stringWithFormat:@"%d",strengthLevel];
+    double rawStrength = [[CellularNetworkStrength sharedInstance]rawStrength];
+    self.rawStrengthLabel.text = [NSString stringWithFormat:@"%.2f",rawStrength];
+}
+
 
 @end
