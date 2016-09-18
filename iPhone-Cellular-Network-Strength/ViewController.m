@@ -20,7 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     int strengthLevel = [[CellularNetworkStrength sharedInstance]strengthLevel];
     NSLog(@"strength: %ld",(long)strengthLevel);
-    double strength = [[CellularNetworkStrength sharedInstance]strengthInDB];
+    double strength = [[CellularNetworkStrength sharedInstance]rawStrength];
     NSLog(@"strengthInDB: %f DB",strength);
     
 }

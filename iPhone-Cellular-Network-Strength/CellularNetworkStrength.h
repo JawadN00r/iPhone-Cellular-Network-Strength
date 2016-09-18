@@ -11,5 +11,5 @@
 @interface CellularNetworkStrength : NSObject
 + (CellularNetworkStrength *)sharedInstance;
 - (int)strengthLevel;
-- (double)strengthInDB;
+- (double)rawStrength;
 @end

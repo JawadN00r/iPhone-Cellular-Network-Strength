@@ -36,7 +36,7 @@
     return signalStrength;
 }
 
-- (double)strengthInDB
+- (double)rawStrength
 {
     UIApplication *app = [UIApplication sharedApplication];
     NSArray *subviews = [[[app valueForKey:@"statusBar"] valueForKey:@"foregroundView"] subviews];
@@ -48,7 +48,7 @@
             break;
         }
     }
-    double signalStrength = [[dataNetworkItemView valueForKey:@"signalStrength"] doubleValue];
+    double signalStrength = [[dataNetworkItemView valueForKey:@"signalStrengthRaw"] doubleValue];
     return signalStrength;
 }
 @end
