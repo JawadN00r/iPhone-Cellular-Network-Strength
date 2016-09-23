@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "CellularNetworkStrength.h"
+#import "JACellularNetworkStrength.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *strengthLevelLabel;
@@ -31,9 +31,9 @@
 
 #pragma mark - IBActions
 - (IBAction)onGetStrengthButton:(id)sender {
-    int strengthLevel = [[CellularNetworkStrength sharedInstance]strengthLevel];
+    int strengthLevel = [[JACellularNetworkStrength sharedInstance]strengthLevel];
     self.strengthLevelLabel.text = [NSString stringWithFormat:@"%d",strengthLevel];
-    double rawStrength = [[CellularNetworkStrength sharedInstance]rawStrength];
+    double rawStrength = [[JACellularNetworkStrength sharedInstance]rawStrength];
     self.rawStrengthLabel.text = [NSString stringWithFormat:@"%.2f",rawStrength];
 }
 

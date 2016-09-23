@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		610DABC91D8DAF4900DF19E0 /* CellularNetworkStrength.m in Sources */ = {isa = PBXBuildFile; fileRef = 610DABC81D8DAF4900DF19E0 /* CellularNetworkStrength.m */; };
+		6199665A1D9567AA006D14DF /* JACellularNetworkStrength.m in Sources */ = {isa = PBXBuildFile; fileRef = 619966591D9567AA006D14DF /* JACellularNetworkStrength.m */; };
 		61BF68A01D8DAC5700CA031C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF689F1D8DAC5700CA031C /* main.m */; };
 		61BF68A31D8DAC5700CA031C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF68A21D8DAC5700CA031C /* AppDelegate.m */; };
 		61BF68A61D8DAC5700CA031C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61BF68A51D8DAC5700CA031C /* ViewController.m */; };
@@ -36,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		610DABC71D8DAF4900DF19E0 /* CellularNetworkStrength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellularNetworkStrength.h; sourceTree = "<group>"; };
-		610DABC81D8DAF4900DF19E0 /* CellularNetworkStrength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellularNetworkStrength.m; sourceTree = "<group>"; };
+		619966581D9567AA006D14DF /* JACellularNetworkStrength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JACellularNetworkStrength.h; sourceTree = "<group>"; };
+		619966591D9567AA006D14DF /* JACellularNetworkStrength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JACellularNetworkStrength.m; sourceTree = "<group>"; };
 		61BF689B1D8DAC5700CA031C /* iPhone-Cellular-Network-Strength.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iPhone-Cellular-Network-Strength.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61BF689F1D8DAC5700CA031C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		61BF68A11D8DAC5700CA031C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +81,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		619966571D9567AA006D14DF /* JACellularNetworkStrength_Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				619966581D9567AA006D14DF /* JACellularNetworkStrength.h */,
+				619966591D9567AA006D14DF /* JACellularNetworkStrength.m */,
+			);
+			name = "JACellularNetworkStrength_Objective-C";
+			path = "../../JACellularNetworkStrength_Objective-C";
+			sourceTree = "<group>";
+		};
 		61BF68921D8DAC5700CA031C = {
 			isa = PBXGroup;
 			children = (
@@ -104,14 +114,13 @@
 		61BF689D1D8DAC5700CA031C /* iPhone-Cellular-Network-Strength */ = {
 			isa = PBXGroup;
 			children = (
+				619966571D9567AA006D14DF /* JACellularNetworkStrength_Objective-C */,
 				61BF68A11D8DAC5700CA031C /* AppDelegate.h */,
 				61BF68A21D8DAC5700CA031C /* AppDelegate.m */,
 				61BF68A41D8DAC5700CA031C /* ViewController.h */,
 				61BF68A51D8DAC5700CA031C /* ViewController.m */,
 				61BF68A71D8DAC5700CA031C /* Main.storyboard */,
 				61BF68AA1D8DAC5700CA031C /* Assets.xcassets */,
-				610DABC71D8DAF4900DF19E0 /* CellularNetworkStrength.h */,
-				610DABC81D8DAF4900DF19E0 /* CellularNetworkStrength.m */,
 				61BF68AC1D8DAC5700CA031C /* LaunchScreen.storyboard */,
 				61BF68AF1D8DAC5700CA031C /* Info.plist */,
 				61BF689E1D8DAC5700CA031C /* Supporting Files */,
@@ -276,8 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				61BF68A61D8DAC5700CA031C /* ViewController.m in Sources */,
-				610DABC91D8DAF4900DF19E0 /* CellularNetworkStrength.m in Sources */,
 				61BF68A31D8DAC5700CA031C /* AppDelegate.m in Sources */,
+				6199665A1D9567AA006D14DF /* JACellularNetworkStrength.m in Sources */,
 				61BF68A01D8DAC5700CA031C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

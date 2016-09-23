@@ -1,21 +1,21 @@
 //
-//  CellularNetworkStrength.m
+//  JACellularNetworkStrength.m
 //  iPhone-Cellular-Network-Strength
 //
 //  Created by Md. Jawad Noor Asif on 9/17/16.
 //  Copyright © 2016 Md. Jawad Noor Asif. All rights reserved.
 //
 
-#import "CellularNetworkStrength.h"
+#import "JACellularNetworkStrength.h"
 #import <UIKit/UIKit.h>
 
-@implementation CellularNetworkStrength
-+ (CellularNetworkStrength *)sharedInstance
+@implementation JACellularNetworkStrength
++ (JACellularNetworkStrength *)sharedInstance
 {
-    static CellularNetworkStrength *_sharedInstance = nil;
+    static JACellularNetworkStrength *_sharedInstance = nil;
     static dispatch_once_t oncePredicate;
     dispatch_once(&oncePredicate, ^{
-        _sharedInstance = [[CellularNetworkStrength alloc]init];
+        _sharedInstance = [[JACellularNetworkStrength alloc]init];
     });
     return _sharedInstance;
 }
