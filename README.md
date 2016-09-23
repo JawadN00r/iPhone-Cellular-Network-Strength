@@ -16,6 +16,11 @@ int strengthLevel = [[JACellularNetworkStrength sharedInstance]strengthLevel];
 double rawStrength = [[JACellularNetworkStrength sharedInstance]rawStrength];
 ~~~
 
+## Build status
+
+[![Build Status](https://travis-ci.org/ogt/boxchareditor.png?branch=gh-pages)](https://travis-ci.org/jawadasif/iPhone-Cellular-Network-Strength)
+
+
 License
 ---
 iPhone-Cellular-Network-Strength is available under MIT license. See the LICENSE file for more info.
