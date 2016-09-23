@@ -1,4 +1,4 @@
 language: objective-c
 osx_image: xcode8
-xcode_project: iPhone-Cellular-Network-Strength/DemoProject_Objective-C/iPhone-Cellular-Network-Strength.xcodeproj
+xcode_project: DemoProject_Objective-C/iPhone-Cellular-Network-Strength.xcodeproj
 xcode_scheme: iPhone-Cellular-Network-StrengthTests
