@@ -1,5 +1,5 @@
 //
-//  JACellularNetworkStrength.h
+//  JNACellularNetworkStrength.h
 //  iPhone-Cellular-Network-Strength
 //
 //  Created by Md. Jawad Noor Asif on 9/17/16.
@@ -8,8 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface JACellularNetworkStrength : NSObject
-+ (JACellularNetworkStrength *)sharedInstance;
-- (int)strengthLevel;
-- (double)rawStrength;
+@interface JNACellularNetworkStrength : NSObject
++ (int)strengthLevel;
++ (double)rawStrength;
 @end

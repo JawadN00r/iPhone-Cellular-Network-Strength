@@ -12,8 +12,8 @@ Check out the [demo app](https://github.com/jawadasif/iPhone-Cellular-Network-St
 Add `JACellularNetworkStrength.h` and `JACellularNetworkStrength.m` to your project.
 
 ~~~objective-c
-int strengthLevel = [[JACellularNetworkStrength sharedInstance]strengthLevel];
-double rawStrength = [[JACellularNetworkStrength sharedInstance]rawStrength];
+int strengthLevel = JNACellularNetworkStrength.strengthLevel;
+double rawStrength = JNACellularNetworkStrength.rawStrength;
 ~~~
 
 ## Build status
