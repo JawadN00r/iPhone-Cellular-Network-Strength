@@ -9,7 +9,7 @@ Simple utility to get cellular network strength of iPhone/iPad
 ## Usages
 Check out the [demo app](https://github.com/jawadasif/iPhone-Cellular-Network-Strength/tree/master/DemoProject_Objective-C) for an example.
 
-Add `JACellularNetworkStrength.h` and `JACellularNetworkStrength.m` to your project.
+Add `JNACellularNetworkStrength.h` and `JNACellularNetworkStrength.m` to your project.
 
 ~~~objective-c
 int strengthLevel = JNACellularNetworkStrength.strengthLevel;
