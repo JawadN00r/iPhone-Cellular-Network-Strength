@@ -31,9 +31,9 @@
 
 #pragma mark - IBActions
 - (IBAction)onGetStrengthButton:(id)sender {
-    int strengthLevel = JNACellularNetworkStrength.strengthLevel;
+    int strengthLevel = [JNACellularNetworkStrength strengthLevel];
     self.strengthLevelLabel.text = [NSString stringWithFormat:@"%d",strengthLevel];
-    double rawStrength = JNACellularNetworkStrength.rawStrength;
+    double rawStrength = [JNACellularNetworkStrength rawStrength];
     self.rawStrengthLabel.text = [NSString stringWithFormat:@"%.2f",rawStrength];
 }
 
