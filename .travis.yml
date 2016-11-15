@@ -1,4 +1,3 @@
 language: objective-c
-osx_image: xcode8
-xcode_project: DemoProject_Objective-C/iPhone-Cellular-Network-Strength.xcodeproj
-xcode_scheme: DemoProject_Objective-C/iPhone-Cellular-Network-StrengthTests
+script:
+    - xcodebuild CODE_SIGNING_REQUIRED=NO
